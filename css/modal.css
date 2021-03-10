@@ -1,0 +1,70 @@
+.achievement-box {
+    
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+}
+
+
+
+.achievement-box-background {
+    position: relative;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.achievement-box-content {
+    background-color: black;
+    margin: auto;
+    overflow: auto;
+    padding: 0.6em;
+    width: auto%;
+    max-width: 80%;
+    position: relative;
+}
+
+.achievement-box-container {
+    overflow: auto;
+    padding: 0.6em;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.achievement-box-container-footer{
+    width: 100%;
+    background-color: black;
+    content: "";
+    display:inline-table;
+    /* clear: both; */
+}
+
+.achievement-box .button{
+        position: relative;
+        width: 50%;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0;
+        cursor: pointer;
+
+}
+
+.achievement-box .button.close{
+    background-color: rgb(176, 18, 18);
+}
+
+.achievement-box .button.certificate{
+    background-color: #86c232;
+}
+

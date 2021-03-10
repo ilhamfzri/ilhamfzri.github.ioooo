@@ -261,7 +261,8 @@ body {
 	font-weight: normal;
 	line-height: 1;
 	text-rendering: optimizeLegibility;
-	word-wrap: break-word;
+	word-
+	: break-word;
 	-webkit-overflow-scrolling: touch;
 	-webkit-text-size-adjust: none;
 }
